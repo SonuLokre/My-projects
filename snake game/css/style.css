@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
+
+
+*{
+       padding: 0;
+       margin: 0;
+}
+
+
+.body{
+       background: url("../Snake-Pass-4k-Wallpaper-2.jpg");
+       min-height: 100vh;
+       background-size: 100vw 100vh;
+       background-repeat: no-repeat;
+       display:flex;
+       justify-content: center;
+       align-items: center;
+       
+}
+
+
+#board{
+       background:linear-gradient(rgb(0, 255, 85) ,rgb(0, 252, 252));
+       width:90vmin;
+       height:90vmin;
+       border: 2px solid black;
+       display: grid;
+       grid-template-columns: repeat(18,1fr);
+       grid-template-rows: repeat(18,1fr);
+       position :absolute;
+       top: 40px;
+       right:310px;
+       
+       
+}
+
+.head{
+        background-color: rgb(183, 0, 255);
+        border : .25vmin  black;
+        border-radius: 8px;
+}
+
+.snake{
+       background-color: rgb(255, 2, 158);
+       border : .10vmin solid white;
+       border-radius: 5px;
+}
+
+
+
+.food{
+       background-color: rgb(0, 89, 255);
+       border : .2vmin solid black;
+       border-radius: 26px;
+}
